@@ -1,4 +1,3 @@
-import Counter from "@/componensts/counter";
 import Link from "next/link";
 
 export default function NavMain() {
@@ -10,12 +9,13 @@ export default function NavMain() {
                     <li><Link href="/main/home">Home</Link></li>
                     <li><Link href="/main/about">About</Link></li>
                     <li><Link href="/main/contact">Contact</Link></li>
+                    <li><Link href="/main/data">Data</Link></li>
+                    <li><Link href="/main/toggle">Toggle</Link></li>
+                    <li><Link href="/graph">Graph</Link></li>
                 </ul>
 
             </div>
-            <div>
-                <Counter/>
-            </div>
+
         </>
     )
 }

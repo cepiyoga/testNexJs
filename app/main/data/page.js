@@ -3,6 +3,7 @@
 import {useEffect, useState} from 'react';
 import DataTableStock from "@/componensts/datatablestock";
 
+
 export default function DataTable() {
     const [whse, setWhse] = useState('%');
     const [data, setData] = useState([]);

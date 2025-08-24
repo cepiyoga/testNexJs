@@ -1,8 +1,5 @@
 import BarChart from "@/componensts/barchart";
 
-export const metadata = {
-    title: "Graph",
-}
 
 export default function GraphPage() {
     return (

@@ -1,3 +1,7 @@
+export const metadata = {
+    title: "Contact",
+}
+
 export default async function Contact() {
     const response = await fetch("http://localhost:3001/posts");
     const posts = await response.json();

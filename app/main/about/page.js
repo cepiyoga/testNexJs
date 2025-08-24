@@ -1,5 +1,9 @@
 import ButtonRed from "@/componensts/button_red";
 
+export const metadata = {
+    title: "About",
+}
+
 export default function About() {
     return (
         <>

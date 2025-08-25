@@ -32,6 +32,7 @@ export default function DataTable() {
 
     return (
         <div className="px-4 sm:px-6 lg:px-8">
+            <h1>List Inventory Onduline Indonesia</h1>
             <div className={`flex mb-4 justify-start gap-2 p-1`}>
                 <button onClick={() => setWhse('CBT-MB')}
                         className={`hover:cursor-pointer md:w-1/12  ${whse === 'CBT-MB' ? 'ring ring-red-200' : 'bg-gray-400'}  px-2 py-1 rounded`}>JKT {whse === '%' || whse === 'CBT-MB' ? '✅' : ''}</button>
